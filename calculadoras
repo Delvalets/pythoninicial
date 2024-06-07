@@ -1,0 +1,26 @@
+#calcular a area de um paralelograma
+print('bem vindo ao calculador de área de paralelogramo')
+base = float(input('Insira o comprimento da base: '))
+altura = float(input('Insira a altura: '))
+area = base * altura
+print('A área do paralelogramo é: ', area)
+
+#calculadora simples
+print('bem vindo a calculadora')
+num1 = float(input('Insira o primeiro numero: '))
+num2 = float(input('Insira o segundo numero: '))
+operacao = input('selecione uma operação (+, -, *, /): ')
+if operacao == '+':
+    resultado = num1 + num2
+    print('O resultado é: ', resultado)
+elif operacao == '-':
+    resultado = num1 - num2
+    print('O resultado é: ', resultado)
+elif operacao == '*':
+    resultado = num1 * num2
+    print('O resultado é: ', resultado)
+elif operacao == '/':
+    resultado = num1 / num1
+    print('O resultado é: ', resultado)
+else:
+    print('operação invalida.')
